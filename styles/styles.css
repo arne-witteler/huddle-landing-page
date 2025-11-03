@@ -87,6 +87,12 @@ body {
   margin-bottom: 32px;
 }
 
+.huddle__button:hover {
+  background-color: var(--color-magenta-400);
+  color: var(--color-white);
+  transition: background-color 0.3s ease;
+}
+
 .huddle__socials {
   justify-content: center;
   list-style: none;
@@ -96,14 +102,21 @@ body {
   align-items: center;
 }
 
-.huddle__social img {
+.huddle__icon {
+  fill: var(--color-white);
   width: 28px;
   height: 28px;
+  transition: fill 0.3s ease;
   cursor: pointer;
-  filter: brightness(0) invert(1);
   border: 1px solid var(--color-white);
   border-radius: 50%;
   padding: 5px;
+}
+
+.huddle__icon:hover {
+  border: 1px solid var(--color-pink-400);
+  fill: var(--color-pink-400);
+  transition: fill 0.3s ease;
 }
 
 .attribution {
