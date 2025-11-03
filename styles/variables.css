@@ -1,0 +1,21 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray-400: hsl(207, 23%, 72%);
+  --color-gray-100: hsl(208, 28%, 91%);
+  --color-blue-950: hsl(192, 100%, 9%);
+  --color-pink-400: hsl(322, 100%, 66%);
+  --color-purple-700: hsl(257, 40%, 49%);
+  --color-magenta-400: hsl(300, 69%, 71%);
+
+  --color-gradient-1: linear-gradient(90deg, hsl(322, 100%, 66%), hsla(265, 100%, 66%, 1));
+  --color-gradient-2: linear-gradient(90deg, hsla(322, 100%, 66%, 0.01), hsla(265, 100%, 66%, 1));
+  --color-gradient-3: linear-gradient(180deg, hsl(192, 100%, 49%), hsl(210, 100%, 49%));
+  --color-gradient-4: linear-gradient(180deg, hsl(47, 94%, 68%), hsl(322, 100%, 66%));
+
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Open Sans', sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+}
